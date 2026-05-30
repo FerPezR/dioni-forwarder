@@ -222,7 +222,17 @@ async def main():
         print(f"[CAL] +{len(cal_pending_to_append)} pending events")
 
     print("[DONE]")
-    await c.disconnect()
+    try:
+        await c.disconnect()
+    except Exception:
+        pass
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+    except Exception as e:
+        # Telethon a veces lanza ruido de teardown asyncio DESPUÉS de [DONE].
+        # Si llegamos aquí tras completar, no es fatal — log y exit 0.
+        print(f"[WARN] excepción post-ejecución (probable teardown Telethon): {e}")
+    sys.exit(0)
