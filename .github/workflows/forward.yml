@@ -1,0 +1,45 @@
+name: Dioni Forwarder
+
+on:
+  schedule:
+    # Cada 30 min — captura señales nuevas + programa alerts pre-partido
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  forward:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install telethon
+
+      - name: Run forwarder
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
+        run: python forwarder.py
+
+      - name: Commit state if changed
+        run: |
+          git config user.name "dioni-forwarder-bot"
+          git config user.email "bot@automatiza.ia"
+          git add state.json calendar-pending.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No state changes"
+          else
+            git commit -m "forwarder: update state $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
