@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-06-27",
+    "summary": "⚽ RM señal Dioni 7:30pm, 3-3",
+    "match_iso_gt": "2026-06-27T17:30:00",
+    "alert_iso_gt": "2026-06-27T17:00:00",
+    "signal_raw": "7:30pm, 3-3",
+    "src_msg_id": 2094
+  },
+  {
+    "date": "2026-06-27",
+    "summary": "⚽ RM señal Dioni 10:00pm, 1-0",
+    "match_iso_gt": "2026-06-27T20:00:00",
+    "alert_iso_gt": "2026-06-27T19:30:00",
+    "signal_raw": "10:00pm, 1-0",
+    "src_msg_id": 2095
+  }
+]
