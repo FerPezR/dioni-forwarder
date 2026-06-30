@@ -69,9 +69,13 @@
       }
     },
     "2026-06-30": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2117
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2117": "2026-06-30T16:30:00+00:00"
+      }
     }
   }
 }
