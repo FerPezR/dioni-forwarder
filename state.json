@@ -80,9 +80,15 @@
       }
     },
     "2026-07-01": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2123,
+        2124
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2123": "2026-07-01T13:30:00+00:00",
+        "2124": "2026-07-01T15:30:00+00:00"
+      }
     }
   }
 }
