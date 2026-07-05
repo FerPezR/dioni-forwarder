@@ -142,9 +142,17 @@
       }
     },
     "2026-07-05": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2154,
+        2155,
+        2156
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2154": "past",
+        "2155": "2026-07-05T16:30:00+00:00",
+        "2156": "2026-07-05T19:30:00+00:00"
+      }
     }
   }
 }
