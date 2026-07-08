@@ -183,9 +183,15 @@
       }
     },
     "2026-07-08": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2172,
+        2173
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2172": "2026-07-08T12:30:00+00:00",
+        "2173": "2026-07-08T15:30:00+00:00"
+      }
     }
   }
 }
