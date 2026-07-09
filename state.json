@@ -200,9 +200,17 @@
       }
     },
     "2026-07-09": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2177,
+        2178,
+        2179
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2177": "past",
+        "2178": "2026-07-09T17:00:00+00:00",
+        "2179": "2026-07-09T19:30:00+00:00"
+      }
     }
   }
 }
