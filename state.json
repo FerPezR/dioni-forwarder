@@ -471,9 +471,15 @@
       }
     },
     "2026-07-26": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2268,
+        2269
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2268": "past",
+        "2269": "2026-07-26T16:30:00+00:00"
+      }
     }
   }
 }
