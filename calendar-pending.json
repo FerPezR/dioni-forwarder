@@ -1158,5 +1158,13 @@
     "alert_iso_gt": "2026-08-05T15:30:00",
     "signal_raw": "6:00pm, 0-3",
     "src_msg_id": 2318
+  },
+  {
+    "date": "2026-08-05",
+    "summary": "⚽ RM señal Dioni 8:30pm, 2-3",
+    "match_iso_gt": "2026-08-05T18:30:00",
+    "alert_iso_gt": "2026-08-05T18:00:00",
+    "signal_raw": "8:30pm, 2-3",
+    "src_msg_id": 2319
   }
 ]
