@@ -637,9 +637,15 @@
       }
     },
     "2026-08-05": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2316,
+        2318
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2316": "past",
+        "2318": "2026-08-05T21:30:00+00:00"
+      }
     }
   }
 }
