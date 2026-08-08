@@ -1230,5 +1230,61 @@
     "alert_iso_gt": "2026-08-07T19:00:00",
     "signal_raw": "9:30pm, 0-3",
     "src_msg_id": 2329
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 6:00am, 0-3",
+    "match_iso_gt": "2026-08-08T04:00:00",
+    "alert_iso_gt": "2026-08-08T03:30:00",
+    "signal_raw": "6:00am, 0-3",
+    "src_msg_id": 2330
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 8:00am, 0-3",
+    "match_iso_gt": "2026-08-08T06:00:00",
+    "alert_iso_gt": "2026-08-08T05:30:00",
+    "signal_raw": "8:00am, 0-3",
+    "src_msg_id": 2331
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 10:00am, 2-3",
+    "match_iso_gt": "2026-08-08T08:00:00",
+    "alert_iso_gt": "2026-08-08T07:30:00",
+    "signal_raw": "10:00am, 2-3",
+    "src_msg_id": 2332
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 1:00pm, 2-3",
+    "match_iso_gt": "2026-08-08T11:00:00",
+    "alert_iso_gt": "2026-08-08T10:30:00",
+    "signal_raw": "1:00pm, 2-3",
+    "src_msg_id": 2333
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 5:00pm, 2-3",
+    "match_iso_gt": "2026-08-08T15:00:00",
+    "alert_iso_gt": "2026-08-08T14:30:00",
+    "signal_raw": "5:00pm, 2-3",
+    "src_msg_id": 2334
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 7:15pm, 0-3",
+    "match_iso_gt": "2026-08-08T17:15:00",
+    "alert_iso_gt": "2026-08-08T16:45:00",
+    "signal_raw": "7:15pm, 0-3",
+    "src_msg_id": 2335
+  },
+  {
+    "date": "2026-08-08",
+    "summary": "⚽ RM señal Dioni 11:10pm, 0-3",
+    "match_iso_gt": "2026-08-08T21:10:00",
+    "alert_iso_gt": "2026-08-08T20:40:00",
+    "signal_raw": "11:10pm, 0-3",
+    "src_msg_id": 2336
   }
 ]
