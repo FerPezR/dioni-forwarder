@@ -856,9 +856,15 @@
       }
     },
     "2026-08-18": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2384,
+        2385
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2384": "2026-08-18T15:00:00+00:00",
+        "2385": "2026-08-18T17:30:00+00:00"
+      }
     }
   }
 }
