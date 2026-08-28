@@ -1002,9 +1002,21 @@
       "scheduled_alerts": {}
     },
     "2026-08-28": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2431,
+        2432,
+        2433,
+        2434,
+        2435
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2431": "past",
+        "2432": "past",
+        "2433": "past",
+        "2434": "past",
+        "2435": "2026-08-28T22:30:00+00:00"
+      }
     }
   }
 }
