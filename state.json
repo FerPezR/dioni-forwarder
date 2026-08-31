@@ -1053,9 +1053,19 @@
       }
     },
     "2026-08-31": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2446,
+        2447,
+        2448,
+        2449
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2446": "past",
+        "2447": "past",
+        "2448": "2026-08-31T18:00:00+00:00",
+        "2449": "2026-08-31T22:00:00+00:00"
+      }
     }
   }
 }
