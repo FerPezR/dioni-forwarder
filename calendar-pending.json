@@ -2062,5 +2062,45 @@
     "alert_iso_gt": "2026-09-04T15:30:00",
     "signal_raw": "6:00pm, 0-3",
     "src_msg_id": 2506
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "⚽ RM señal Dioni 6:30am, 0-3",
+    "match_iso_gt": "2026-09-05T04:30:00",
+    "alert_iso_gt": "2026-09-05T04:00:00",
+    "signal_raw": "6:30am, 0-3",
+    "src_msg_id": 2533
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "⚽ RM señal Dioni 8:45am, 2-3",
+    "match_iso_gt": "2026-09-05T06:45:00",
+    "alert_iso_gt": "2026-09-05T06:15:00",
+    "signal_raw": "8:45am, 2-3",
+    "src_msg_id": 2534
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "⚽ RM señal Dioni 11:55am, 0-3",
+    "match_iso_gt": "2026-09-05T09:55:00",
+    "alert_iso_gt": "2026-09-05T09:25:00",
+    "signal_raw": "11:55am, 0-3",
+    "src_msg_id": 2535
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "⚽ RM señal Dioni 2:45pm, 2-3",
+    "match_iso_gt": "2026-09-05T12:45:00",
+    "alert_iso_gt": "2026-09-05T12:15:00",
+    "signal_raw": "2:45pm, 2-3",
+    "src_msg_id": 2536
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "⚽ RM señal Dioni 5:00pm, 3-0 (Boyaca ",
+    "match_iso_gt": "2026-09-05T15:00:00",
+    "alert_iso_gt": "2026-09-05T14:30:00",
+    "signal_raw": "5:00pm, 3-0 (Boyaca Chico vs Once Caldas)",
+    "src_msg_id": 2537
   }
 ]
