@@ -1403,6 +1403,11 @@
       "scheduled_alerts": {
         "2841": "2026-09-23T15:30:00+00:00"
       }
+    },
+    "2026-09-24": {
+      "msg_ids": [],
+      "caption_posted": false,
+      "scheduled_alerts": {}
     }
   }
 }
