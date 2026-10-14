@@ -1663,9 +1663,15 @@
       }
     },
     "2026-10-14": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2915,
+        2916
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2915": "past",
+        "2916": "2026-10-14T18:30:00+00:00"
+      }
     }
   }
 }
