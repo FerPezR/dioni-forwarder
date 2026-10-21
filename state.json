@@ -1752,9 +1752,19 @@
       }
     },
     "2026-10-21": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2935,
+        2936,
+        2937,
+        2938
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2935": "past",
+        "2936": "past",
+        "2937": "2026-10-21T18:30:00+00:00",
+        "2938": "2026-10-21T21:30:00+00:00"
+      }
     }
   }
 }
