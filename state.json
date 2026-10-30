@@ -1871,9 +1871,17 @@
       }
     },
     "2026-10-30": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        2966,
+        2967,
+        2968
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2966": "past",
+        "2967": "past",
+        "2968": "2026-10-30T22:00:00+00:00"
+      }
     }
   }
 }
