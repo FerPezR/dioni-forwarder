@@ -1887,6 +1887,15 @@
       "msg_ids": [],
       "caption_posted": false,
       "scheduled_alerts": {}
+    },
+    "2026-11-01": {
+      "msg_ids": [
+        2969
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "2969": "2026-11-02T01:00:00+00:00"
+      }
     }
   }
 }
