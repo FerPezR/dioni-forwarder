@@ -2006,6 +2006,15 @@
       "msg_ids": [],
       "caption_posted": false,
       "scheduled_alerts": {}
+    },
+    "2026-11-10": {
+      "msg_ids": [
+        3003
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "3003": "2026-11-11T00:30:00+00:00"
+      }
     }
   }
 }
