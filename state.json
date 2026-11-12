@@ -2036,9 +2036,15 @@
       }
     },
     "2026-11-12": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        3010,
+        3011
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "3010": "past",
+        "3011": "2026-11-12T21:30:00+00:00"
+      }
     }
   }
 }
