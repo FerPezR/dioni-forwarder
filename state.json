@@ -2112,9 +2112,15 @@
       }
     },
     "2026-11-18": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        3027,
+        3028
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "3027": "2026-11-18T12:00:00+00:00",
+        "3028": "2026-11-18T18:30:00+00:00"
+      }
     }
   }
 }
