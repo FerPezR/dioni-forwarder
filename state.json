@@ -2151,9 +2151,19 @@
       }
     },
     "2026-11-21": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        3038,
+        3039,
+        3040,
+        3041
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "3038": "past",
+        "3039": "past",
+        "3040": "past",
+        "3041": "2026-11-21T22:30:00+00:00"
+      }
     }
   }
 }
