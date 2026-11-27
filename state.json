@@ -2203,9 +2203,15 @@
       "scheduled_alerts": {}
     },
     "2026-11-27": {
-      "msg_ids": [],
-      "caption_posted": false,
-      "scheduled_alerts": {}
+      "msg_ids": [
+        3046,
+        3047
+      ],
+      "caption_posted": true,
+      "scheduled_alerts": {
+        "3046": "past",
+        "3047": "2026-11-27T17:00:00+00:00"
+      }
     }
   }
 }
